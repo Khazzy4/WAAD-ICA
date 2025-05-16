@@ -12,9 +12,9 @@ export default function ContactUs() {
             <div>
                 <h2 className="dev-heading">Why I Created Study Buddy</h2>
                 <p className="dev-comment">
-                I developed Study Buddy to bring students together in a community
+                We developed Study Buddy to bring students together in a community
                 where collaboration fuels creativity. By making it easy to connect
-                on shared interests, I hope to inspire teamwork and meaningful
+                on shared interests, we hope to inspire teamwork and meaningful
                 learning experiences for everyone.
                 </p>
             </div>
