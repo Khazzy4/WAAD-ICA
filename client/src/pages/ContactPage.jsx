@@ -25,9 +25,9 @@ export default function ContactUs() {
             <div className="contact-details">
               <p>Have feedback or found a bug? Reach out:</p>
               <ul>
-                <li>Email: <a href="mailto:developer@studybuddy.com">developer@studybuddy.com</a></li>
+                <li>Email: <a href="mailto:developer@studybuddy.com">sacha.labastie@praguecollege.cz</a></li>
                 <li>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></li>
-                <li>GitHub: <a href="https://github.com/studybuddy">github.com/studybuddy</a></li>
+                <li>GitHub: <a href="https://github.com/Khazzy4">https://github.com/Khazzy4</a></li>
               </ul>
             </div>
           </div>
