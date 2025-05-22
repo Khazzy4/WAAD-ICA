@@ -1,5 +1,4 @@
 .home-content {
-
   width: 100vw;
   height: 100vh;
   background-image: var(--bg-image);
@@ -37,6 +36,13 @@
 .comments-section-wrapper {
   padding: 60px 20px;
   text-align: center;
+  background-image: linear-gradient(
+    rgba(226, 191, 244, 0.6), 
+    rgba(226, 191, 244, 0.6)
+  ), url('../images/studying.jpg');
+  background-size: cover;        /* makes the image fill the container */
+  background-position: center;   /* centers the image */
+  background-repeat: no-repeat;  /* avoids tiling the image */
 }
 
 .comments-title {
@@ -93,10 +99,9 @@
 }
 
 .comment-body {
-
   padding: 20px;
   padding-top: 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
   flex-grow: 1;
   display: flex;

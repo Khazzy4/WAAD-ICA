@@ -1,3 +1,4 @@
+// Timothy
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import './LoginPage.css';
@@ -53,7 +54,7 @@ const LoginPage = () => {
 
   return (
     <div className="login-wrapper">
-      <h2 className="login-heading">WELCOME BACK</h2>
+      <h2 className="login-heading">LOG IN</h2>
       <form className="login-form" onSubmit={handleLogin}>
         <input
           type="email"

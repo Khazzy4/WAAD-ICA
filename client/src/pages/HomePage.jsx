@@ -1,3 +1,4 @@
+// Timothy
 import { useEffect, useState } from 'react';
 import './HomePage.css';
 import bgImage from '../images/background.png';

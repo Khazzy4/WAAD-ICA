@@ -1,6 +1,7 @@
+// Timothy
 import React from "react";
 import './ContactPage.css';
-import devPhoto from '../images/developer.jpg'; 
+import devPhoto from '../images/pcu_logo.png';
 
 export default function ContactUs() {
   return (
@@ -12,9 +13,9 @@ export default function ContactUs() {
             <div>
                 <h2 className="dev-heading">Why I Created Study Buddy</h2>
                 <p className="dev-comment">
-                I developed Study Buddy to bring students together in a community
+                We developed Study Buddy to bring students together in a community
                 where collaboration fuels creativity. By making it easy to connect
-                on shared interests, I hope to inspire teamwork and meaningful
+                on shared interests, we hope to inspire teamwork and meaningful
                 learning experiences for everyone.
                 </p>
             </div>
@@ -23,11 +24,11 @@ export default function ContactUs() {
           <div className="contact-details-block">
             <h2 className="dev-heading">Contact Me</h2>
             <div className="contact-details">
-              <p>Have feedback or found a bug? Reach out:</p>
+              <p>Have feedback or found a bug? <strong>Reach out:</strong></p>
               <ul>
-                <li>Email: <a href="mailto:developer@studybuddy.com">developer@studybuddy.com</a></li>
+                <li>Email: <a href="mailto:developer@studybuddy.com">sacha.labastie@praguecollege.cz</a></li>
                 <li>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></li>
-                <li>GitHub: <a href="https://github.com/studybuddy">github.com/studybuddy</a></li>
+                <li>GitHub: <a href="https://github.com/Khazzy4">https://github.com/Khazzy4</a></li>
               </ul>
             </div>
           </div>

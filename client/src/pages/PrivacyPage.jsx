@@ -1,3 +1,4 @@
+// Artem
 import React from 'react';
 import './PrivacyAndTerms.css';
 

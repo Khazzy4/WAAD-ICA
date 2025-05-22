@@ -28,7 +28,7 @@
 }
 
 .header-title:hover {
-  color: #e0d1e8;
+  color: #0c0c0c;
 }
 
 .center-links-desktop {
@@ -46,10 +46,21 @@
   padding: 8px 12px;
   min-width: 100px;
   text-align: center;
+  font-size: 1rem;
 }
 
 .nav-link:hover {
-  color: #a98fb8;
+  color: #0c0c0c;
+  text-decoration: underline;
+  transition: 0.9s;
+}
+
+#logo {
+  letter-spacing: 2px;
+}
+
+#logo:hover {
+  text-decoration: none;
 }
 
 .right-buttons {
@@ -59,18 +70,18 @@
 }
 
 .log-btn {
-  background-color: #2a2929; 
+  background-color: #1e1e1e; 
   color: white; 
   border: none;
-  padding: 6px 14px;
-  border-radius: 20px;
+  padding: 8px 16px;
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.3s;
+  font-size: 1rem;
 }
 
 .log-btn:hover {
-  background-color: #a98fb8;
+  background-color: #0c0c0c;
 }
 
 .profile-btn {

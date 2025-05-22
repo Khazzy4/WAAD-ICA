@@ -26,6 +26,7 @@ const Footer = () => {
             <li><a href="/Privacy">Privacy Policy</a></li>
             <li><a href="/terms">Terms of Service</a></li>
             <li><a href="#">Contact Support</a></li>
+            <p className="footer-bottom-text">Copyright © 2025 @studybuddy.com</p>
           </ul>
           
         </div>
@@ -35,7 +36,6 @@ const Footer = () => {
             <a href="#"><i className="fab fa-youtube"></i></a>
           </div>
       </div>
-      <p className="footer-bottom-text">Copyright © 2025 @studybuddy.com</p>
     </footer>
     );
     
@@ -68,7 +68,7 @@ const Footer = () => {
           <p className="footer-quote">
           Study Buddy is an excellent app for connecting with like-minded students. The interface is user-friendly, and the features, like matching with teammates and messaging, make it easy to collaborate and stay motivated. A must-have for anyone serious about studying and networking!
           </p>
-          <p className="footer-quote-source">– PCU STUDENT</p>
+          <p className="footer-quote-source">/– PCU STUDENT</p>
         </div>
         <div className="footer-middle">
           <ul className="footer-links">
@@ -80,7 +80,7 @@ const Footer = () => {
           
         </div>
         <div className="footer-right social-icons">
-            <a href="#"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/praguecityuniversity/?hl=en" target="_blank"><i className="fab fa-instagram"></i></a>
             <a href="#"><i className="fab fa-facebook"></i></a>
             <a href="#"><i className="fab fa-youtube"></i></a>
           </div>
