@@ -9,37 +9,6 @@ const Footer = () => {
   if (location.pathname === '/chats') {
     return null;
   }
-  if (location.pathname === '/contact') {
-    return (
-    <footer className="footer">
-      <div className="footer-container">
-        <div className="footer-left">
-          <h3 className="footer-title">STUDY BUDDY</h3>
-          <p className="footer-quote">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-          </p>
-          <p className="footer-quote-source">– PCU STUDENT</p>
-        </div>
-        <div className="footer-right">
-          <ul className="footer-links">
-            <li><a href="/">About Us</a></li>
-            <li><a href="/Privacy">Privacy Policy</a></li>
-            <li><a href="/terms">Terms of Service</a></li>
-            <li><a href="#">Contact Support</a></li>
-            <p className="footer-bottom-text">Copyright © 2025 @studybuddy.com</p>
-          </ul>
-          
-        </div>
-        <div className="social-icons">
-            <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="#"><i className="fab fa-youtube"></i></a>
-          </div>
-      </div>
-    </footer>
-    );
-    
-  }
   return (
     <footer className="footer">
       <div className="contact-us">
