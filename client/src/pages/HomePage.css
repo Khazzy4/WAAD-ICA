@@ -109,6 +109,38 @@
   justify-content: center;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home-content {
+    max-height: 60vh;
+  }
+  .overlay {
+    padding: 40px 32px;
+    max-width: 500px;
+  }
+  .welcome-title {
+    font-size: 3rem;
+  }
+  .welcome-text {
+    font-size: 1.6rem;
+  }
+  .comments-section-wrapper {
+    padding: 40px 20px;
+    width: 100vw;
+  }
+  .comments-title {
+    font-size: 2.2rem;
+  }
+  .comments-section {
+    margin: none;
+    gap: 20px;
+  }
+  .comment-card {
+    width: 45%;
+    height: fit-content;
+  }
+
+}
+
 @media (max-width: 768px) {
   .comments-title {
     margin-bottom: 40px;
