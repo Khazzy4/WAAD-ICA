@@ -89,6 +89,40 @@
     color: #000000;
     text-decoration: underline;
   }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contact-section {
+    padding: 40px;
+  }
+  .contact-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .dev-card {
+    flex-direction: row;
+    gap: 60px;
+  }
+  .dev-photo-block,
+  .contact-details-block {
+    flex: 1 1 45%;
+    padding: 40px;
+  }
+  .dev-photo {
+    width: 200px;
+    height: 200px;
+  }
+  .dev-comment,
+  .contact-details p,
+  .contact-details ul,
+  .contact-details li {
+    font-size: 18px;
+  }
+  .dev-heading {
+    font-size: 26px;
+  }
+}
   
   @media (max-width: 768px) {
     .dev-card {
