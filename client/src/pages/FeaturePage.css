@@ -92,7 +92,41 @@ button.orange {
   background-color: #FFB74D;
 }
 
-/* ————— Мобильная версия ————— */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .feature-container {
+    padding: 32px 24px;
+  }
+  .feature-title {
+    font-size: 2.6rem;
+  }
+  .feature-subtitle {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin-bottom: 32px;
+  }
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .feature-card {
+    width: 90%;
+    padding: 32px;
+  }
+  .feature-icon {
+    font-size: 2.5rem;
+  }
+  .feature-title {
+    font-size: 1.6rem;
+  }
+  .feature-text {
+    font-size: 1rem;
+  }
+  button {
+    font-size: 0.95rem;
+    padding: 8px 16px;
+  }
+}
+
 @media (max-width: 768px) {
   .feature-container {
     padding: 20px 16px;
