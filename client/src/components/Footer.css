@@ -186,49 +186,6 @@ html, body {
   background-color: #333;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-  .footer-container {
-    gap: 40px;
-    margin-top: 60px;
-  }
-  .footer-left,
-  .footer-middle,
-  .footer-right {
-    flex: 1 1 33%;
-  }
-  .footer-title {
-    font-size: 1.3rem;
-  }
-  .footer-quote {
-    font-size: 1rem;
-  }
-  .social-icons {
-    gap: 16px;
-    margin-left: 100px;
-  }
-
-  .contact-us {
-    padding: 32px 24px;
-  }
-  .contact-us h2 {
-    font-size: 1.6rem;
-  }
-  .contact-content {
-    gap: 32px;
-  }
-  .contact-left iframe {
-    height: 200px;
-  }
-  .contact-right input,
-  .contact-right textarea {
-    font-size: 1rem;
-  }
-  .contact-right button {
-    padding: 10px 20px;
-    font-size: 1rem;
-  }
-}
-
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
@@ -239,6 +196,7 @@ html, body {
   .footer-left, .footer-right {
     flex: 1 1 100%;
     text-align: center;
+    margin: 0;
   }
 
   .footer-links {

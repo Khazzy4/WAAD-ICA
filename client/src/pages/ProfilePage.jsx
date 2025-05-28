@@ -189,7 +189,7 @@ export default function ProfilePage() {
           onClick={() => setMenuOpen((o) => !o)}
           
         >
-          menu
+          Menu
         </button>
 
         <div className={`mobile-menu${menuOpen ? " open" : ""}`}>

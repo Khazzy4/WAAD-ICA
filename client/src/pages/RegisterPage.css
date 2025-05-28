@@ -85,41 +85,6 @@
   display: block;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-  .register-wrapper {
-    padding: 40px 20px;
-    min-height: auto;
-  }
-  .register-heading {
-    font-size: 1.8rem;
-    margin-bottom: 32px;
-  }
-  .register-form {
-    max-width: 600px;
-    gap: 16px;
-  }
-  .row {
-    gap: 16px;
-  }
-  .row .input-group {
-    min-width: 220px;
-  }
-  .register-form input[type="text"],
-  .register-form input[type="email"],
-  .register-form input[type="password"] {
-    padding: 12px 14px;
-    font-size: 0.95rem;
-  }
-  .register-btn {
-    padding: 12px;
-    font-size: 1rem;
-    width: 140px;
-  }
-  #turnstile-container {
-    min-width: 350px;
-  }
-}
-
 @media (max-width: 768px) {
   #turnstile-container {
     max-width: 100%;
