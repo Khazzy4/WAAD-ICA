@@ -48,3 +48,25 @@
   background-color: #222;
 }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .login-wrapper {
+    padding: 40px 20px;
+    min-height: auto;
+  }
+  .login-heading {
+    font-size: 1.8rem;
+  }
+  .login-form {
+    gap: 16px;
+  }
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    padding: 12px 14px;
+    font-size: 0.95rem;
+  }
+  .login-btn {
+    padding: 12px;
+    font-size: 1rem;
+    width: 300px;
+  }
+}
